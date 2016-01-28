@@ -5,7 +5,7 @@ use Mailgun\Mailgun;
 
 # Instantiate the client.
 $mgClient = new Mailgun('key-77eb89390fa2c682b101cf924de1d568');
-$domain = "requestory-millerchat315.c9.io";
+$domain = "mmiller314.github.io";
 
 $name       = @trim(stripslashes($_POST['name'])); 
 $from       = @trim(stripslashes($_POST['email'])); 
